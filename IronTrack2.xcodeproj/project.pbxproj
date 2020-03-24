@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263FBC272414807800921B92 /* myWorkouts.json in Resources */ = {isa = PBXBuildFile; fileRef = 263FBC262414807800921B92 /* myWorkouts.json */; };
+		2641BF5624058E8100FEA17D /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2641BF5524058E8100FEA17D /* MailView.swift */; };
+		266CF4F5241965F200E28FD1 /* CustomWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 266CF4F4241965F200E28FD1 /* CustomWork.swift */; };
+		2680778B241B11D200AFA0CD /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2680778A241B11D200AFA0CD /* CustomView.swift */; };
+		268C4D95240BF8BF00855B26 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 268C4D94240BF8BF00855B26 /* TextView.swift */; };
+		26A07B6B24033E4900CECB2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A07B6A24033E4900CECB2B /* AppDelegate.swift */; };
+		26A07B6D24033E4900CECB2B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A07B6C24033E4900CECB2B /* SceneDelegate.swift */; };
+		26A07B7024033E4900CECB2B /* IronTrack2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 26A07B6E24033E4900CECB2B /* IronTrack2.xcdatamodeld */; };
+		26A07B7224033E4900CECB2B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A07B7124033E4900CECB2B /* ContentView.swift */; };
+		26A07B7424033E4A00CECB2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A07B7324033E4A00CECB2B /* Assets.xcassets */; };
+		26A07B7724033E4A00CECB2B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26A07B7624033E4A00CECB2B /* Preview Assets.xcassets */; };
+		26A07B7A24033E4A00CECB2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26A07B7824033E4A00CECB2B /* LaunchScreen.storyboard */; };
+		26A07B8224033EAA00CECB2B /* WorkItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A07B8124033EAA00CECB2B /* WorkItem.swift */; };
+		26A07B8424033EFD00CECB2B /* WorkItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A07B8324033EFD00CECB2B /* WorkItemView.swift */; };
+		26A47C3C24181E5B003BF9D1 /* DIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A47C3B24181E5B003BF9D1 /* DIImage.swift */; };
+		26D7CF70240562A000D8D873 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D7CF6F240562A000D8D873 /* AppView.swift */; };
+		26D7CF7224056EB800D8D873 /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D7CF7124056EB800D8D873 /* Picker.swift */; };
+		26E181F6240BFF4100B31F7A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E181F5240BFF4100B31F7A /* Helper.swift */; };
+		26E181F8240BFF7E00B31F7A /* StopWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E181F7240BFF7E00B31F7A /* StopWatch.swift */; };
+		26E181FA240C01BD00B31F7A /* TImerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E181F9240C01BD00B31F7A /* TImerManager.swift */; };
+		26E5889324146CC3006F6415 /* LoadWorkouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5889224146CC3006F6415 /* LoadWorkouts.swift */; };
+		26E5889724146D87006F6415 /* ExerciseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5889624146D87006F6415 /* ExerciseItem.swift */; };
+		26E5889924147979006F6415 /* ExerciseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5889824147979006F6415 /* ExerciseHelper.swift */; };
+		26E5889B24147A57006F6415 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5889A24147A57006F6415 /* ItemRow.swift */; };
+		26E5889D24147A8F006F6415 /* itemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26E5889C24147A8F006F6415 /* itemDetail.swift */; };
+		26EEE7A1241D2D5200F6C16D /* UIKItTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EEE7A0241D2D5200F6C16D /* UIKItTextField.swift */; };
+		26EEE7CE241DAAEB00F6C16D /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26EEE7CD241DAAEB00F6C16D /* GraphView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		263FBC262414807800921B92 /* myWorkouts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = myWorkouts.json; sourceTree = "<group>"; };
+		2641BF5524058E8100FEA17D /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
+		266CF4F4241965F200E28FD1 /* CustomWork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomWork.swift; sourceTree = "<group>"; };
+		2680778A241B11D200AFA0CD /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		268C4D94240BF8BF00855B26 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		26A07B6724033E4900CECB2B /* IronTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IronTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		26A07B6A24033E4900CECB2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		26A07B6C24033E4900CECB2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		26A07B6F24033E4900CECB2B /* IronTrack2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IronTrack2.xcdatamodel; sourceTree = "<group>"; };
+		26A07B7124033E4900CECB2B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		26A07B7324033E4A00CECB2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		26A07B7624033E4A00CECB2B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		26A07B7924033E4A00CECB2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		26A07B7B24033E4A00CECB2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26A07B8124033EAA00CECB2B /* WorkItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkItem.swift; sourceTree = "<group>"; };
+		26A07B8324033EFD00CECB2B /* WorkItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkItemView.swift; sourceTree = "<group>"; };
+		26A47C3B24181E5B003BF9D1 /* DIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DIImage.swift; sourceTree = "<group>"; };
+		26A47C4C24187426003BF9D1 /* IronTrackRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IronTrackRelease.entitlements; sourceTree = "<group>"; };
+		26D7CF6F240562A000D8D873 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		26D7CF7124056EB800D8D873 /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		26E181F5240BFF4100B31F7A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		26E181F7240BFF7E00B31F7A /* StopWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatch.swift; sourceTree = "<group>"; };
+		26E181F9240C01BD00B31F7A /* TImerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImerManager.swift; sourceTree = "<group>"; };
+		26E5889224146CC3006F6415 /* LoadWorkouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadWorkouts.swift; sourceTree = "<group>"; };
+		26E5889624146D87006F6415 /* ExerciseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseItem.swift; sourceTree = "<group>"; };
+		26E5889824147979006F6415 /* ExerciseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseHelper.swift; sourceTree = "<group>"; };
+		26E5889A24147A57006F6415 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
+		26E5889C24147A8F006F6415 /* itemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemDetail.swift; sourceTree = "<group>"; };
+		26EEE7A0241D2D5200F6C16D /* UIKItTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKItTextField.swift; sourceTree = "<group>"; };
+		26EEE7CD241DAAEB00F6C16D /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26A07B6424033E4900CECB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		262D0EED241486760022DEA8 /* Workout Selections */ = {
+			isa = PBXGroup;
+			children = (
+				26E5889A24147A57006F6415 /* ItemRow.swift */,
+				26E5889C24147A8F006F6415 /* itemDetail.swift */,
+				26A47C3B24181E5B003BF9D1 /* DIImage.swift */,
+				263FBC262414807800921B92 /* myWorkouts.json */,
+				26E5889224146CC3006F6415 /* LoadWorkouts.swift */,
+				2680778A241B11D200AFA0CD /* CustomView.swift */,
+				26E5889624146D87006F6415 /* ExerciseItem.swift */,
+				26E5889824147979006F6415 /* ExerciseHelper.swift */,
+			);
+			path = "Workout Selections";
+			sourceTree = "<group>";
+		};
+		2641BF652406D0FC00FEA17D /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				26D7CF7124056EB800D8D873 /* Picker.swift */,
+				26A07B8124033EAA00CECB2B /* WorkItem.swift */,
+				266CF4F4241965F200E28FD1 /* CustomWork.swift */,
+				26A07B8324033EFD00CECB2B /* WorkItemView.swift */,
+			);
+			path = Work;
+			sourceTree = "<group>";
+		};
+		2641BF662406D11900FEA17D /* Enhanced */ = {
+			isa = PBXGroup;
+			children = (
+				26E181F5240BFF4100B31F7A /* Helper.swift */,
+				26E181F7240BFF7E00B31F7A /* StopWatch.swift */,
+				26E181F9240C01BD00B31F7A /* TImerManager.swift */,
+				26D7CF6F240562A000D8D873 /* AppView.swift */,
+				2641BF5524058E8100FEA17D /* MailView.swift */,
+				268C4D94240BF8BF00855B26 /* TextView.swift */,
+				26EEE7A0241D2D5200F6C16D /* UIKItTextField.swift */,
+				26EEE7CD241DAAEB00F6C16D /* GraphView.swift */,
+			);
+			path = Enhanced;
+			sourceTree = "<group>";
+		};
+		26A07B5E24033E4900CECB2B = {
+			isa = PBXGroup;
+			children = (
+				26A07B6924033E4900CECB2B /* IronTrack2 */,
+				26A07B6824033E4900CECB2B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26A07B6824033E4900CECB2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26A07B6724033E4900CECB2B /* IronTrack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26A07B6924033E4900CECB2B /* IronTrack2 */ = {
+			isa = PBXGroup;
+			children = (
+				26A47C4C24187426003BF9D1 /* IronTrackRelease.entitlements */,
+				26A07B6A24033E4900CECB2B /* AppDelegate.swift */,
+				26A07B6C24033E4900CECB2B /* SceneDelegate.swift */,
+				26A07B7124033E4900CECB2B /* ContentView.swift */,
+				262D0EED241486760022DEA8 /* Workout Selections */,
+				2641BF652406D0FC00FEA17D /* Work */,
+				2641BF662406D11900FEA17D /* Enhanced */,
+				26A07B7324033E4A00CECB2B /* Assets.xcassets */,
+				26A07B7824033E4A00CECB2B /* LaunchScreen.storyboard */,
+				26A07B7B24033E4A00CECB2B /* Info.plist */,
+				26A07B6E24033E4900CECB2B /* IronTrack2.xcdatamodeld */,
+				26A07B7524033E4A00CECB2B /* Preview Content */,
+			);
+			path = IronTrack2;
+			sourceTree = "<group>";
+		};
+		26A07B7524033E4A00CECB2B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				26A07B7624033E4A00CECB2B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		26A07B6624033E4900CECB2B /* IronTrack2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26A07B7E24033E4A00CECB2B /* Build configuration list for PBXNativeTarget "IronTrack2" */;
+			buildPhases = (
+				26A07B6324033E4900CECB2B /* Sources */,
+				26A07B6424033E4900CECB2B /* Frameworks */,
+				26A07B6524033E4900CECB2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IronTrack2;
+			packageProductDependencies = (
+			);
+			productName = IronTrack2;
+			productReference = 26A07B6724033E4900CECB2B /* IronTrack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26A07B5F24033E4900CECB2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Nish Gowda";
+				TargetAttributes = {
+					26A07B6624033E4900CECB2B = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 26A07B6224033E4900CECB2B /* Build configuration list for PBXProject "IronTrack2" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 26A07B5E24033E4900CECB2B;
+			packageReferences = (
+			);
+			productRefGroup = 26A07B6824033E4900CECB2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26A07B6624033E4900CECB2B /* IronTrack2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26A07B6524033E4900CECB2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26A07B7A24033E4A00CECB2B /* LaunchScreen.storyboard in Resources */,
+				26A07B7724033E4A00CECB2B /* Preview Assets.xcassets in Resources */,
+				26A07B7424033E4A00CECB2B /* Assets.xcassets in Resources */,
+				263FBC272414807800921B92 /* myWorkouts.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26A07B6324033E4900CECB2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26EEE7CE241DAAEB00F6C16D /* GraphView.swift in Sources */,
+				26EEE7A1241D2D5200F6C16D /* UIKItTextField.swift in Sources */,
+				26E181F8240BFF7E00B31F7A /* StopWatch.swift in Sources */,
+				26A07B8424033EFD00CECB2B /* WorkItemView.swift in Sources */,
+				26A07B7024033E4900CECB2B /* IronTrack2.xcdatamodeld in Sources */,
+				268C4D95240BF8BF00855B26 /* TextView.swift in Sources */,
+				26A07B8224033EAA00CECB2B /* WorkItem.swift in Sources */,
+				26D7CF70240562A000D8D873 /* AppView.swift in Sources */,
+				26E181FA240C01BD00B31F7A /* TImerManager.swift in Sources */,
+				26E5889D24147A8F006F6415 /* itemDetail.swift in Sources */,
+				26A07B6B24033E4900CECB2B /* AppDelegate.swift in Sources */,
+				26E5889324146CC3006F6415 /* LoadWorkouts.swift in Sources */,
+				26A47C3C24181E5B003BF9D1 /* DIImage.swift in Sources */,
+				26E5889B24147A57006F6415 /* ItemRow.swift in Sources */,
+				26D7CF7224056EB800D8D873 /* Picker.swift in Sources */,
+				26A07B7224033E4900CECB2B /* ContentView.swift in Sources */,
+				26E5889724146D87006F6415 /* ExerciseItem.swift in Sources */,
+				26E5889924147979006F6415 /* ExerciseHelper.swift in Sources */,
+				2680778B241B11D200AFA0CD /* CustomView.swift in Sources */,
+				26E181F6240BFF4100B31F7A /* Helper.swift in Sources */,
+				266CF4F5241965F200E28FD1 /* CustomWork.swift in Sources */,
+				2641BF5624058E8100FEA17D /* MailView.swift in Sources */,
+				26A07B6D24033E4900CECB2B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		26A07B7824033E4A00CECB2B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26A07B7924033E4A00CECB2B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		26A07B7C24033E4A00CECB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		26A07B7D24033E4A00CECB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		26A07B7F24033E4A00CECB2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"IronTrack2/Preview Content\"";
+				DEVELOPMENT_TEAM = GCBWVTCRDA;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IronTrack2",
+				);
+				INFOPLIST_FILE = IronTrack2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishgowda.IronTrack2;
+				PRODUCT_NAME = IronTrack;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		26A07B8024033E4A00CECB2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IronTrack2/IronTrackRelease.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_ASSET_PATHS = "\"IronTrack2/Preview Content\"";
+				DEVELOPMENT_TEAM = GCBWVTCRDA;
+				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IronTrack2",
+				);
+				INFOPLIST_FILE = IronTrack2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nishgowda.IronTrack2;
+				PRODUCT_NAME = IronTrack;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26A07B6224033E4900CECB2B /* Build configuration list for PBXProject "IronTrack2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A07B7C24033E4A00CECB2B /* Debug */,
+				26A07B7D24033E4A00CECB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26A07B7E24033E4A00CECB2B /* Build configuration list for PBXNativeTarget "IronTrack2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A07B7F24033E4A00CECB2B /* Debug */,
+				26A07B8024033E4A00CECB2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		26A07B6E24033E4900CECB2B /* IronTrack2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				26A07B6F24033E4900CECB2B /* IronTrack2.xcdatamodel */,
+			);
+			currentVersion = 26A07B6F24033E4900CECB2B /* IronTrack2.xcdatamodel */;
+			path = IronTrack2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 26A07B5F24033E4900CECB2B /* Project object */;
+}
