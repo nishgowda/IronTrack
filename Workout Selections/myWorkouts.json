@@ -1,0 +1,580 @@
+[
+	{
+        "id": "EF1CC5BB-4785-4D8E-AB98-5FA4E00B6A66",
+		"name": "Upper Body",
+		"items": [
+			{
+                "id": "EDCD038C-036F-4C40-826F-61C88CD84DDD",
+				"name": "Barbell Bench Press",
+				"photoCredit": "Joseph Gonzalez",
+				"price": 6,
+				"muscleGroups": ["P","A","S"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Bench-press-1.png",
+				    "steps": [
+                  "Lie on a flat bench with your feet flat on the floor, keep your back flat on the bench.",
+                  "Grasp the bar a little wider than shoulder width apart.",
+                  "Raise the barbell above your body and move it over the middle of your chest, this is your starting position.",
+                  "Lower the bar down so it just touches your chest.",
+                  "Raise the bar till your arms are fully extended and your elbows are locked.",
+                  "Return to starting position."
+                ]
+			},
+			{
+                "id": "36A7CC40-18C1-48E5-BCD8-3B42D43BEAEE",
+				"name": "Barbell Shoulder Press",
+				"photoCredit": "Joseph Gonzalez",
+				"price": 8,
+				"muscleGroups": ["S","A"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Seated-military-shoulder-press-2.png",
+				"steps": [
+                  "Sit upright with your back supported by the chair and draw your abs in.",
+                  "Place your hands on the bars and with smooth even motions press upward extending your arms, but not locking them.",
+                  "At the top pause then with controlled motion lower the bars to your starting position."
+                ]
+			},
+			{
+                "id": "CFB8C2DB-3478-4A10-92FA-3D2A2D5324FB",
+				"name": "Lat Pulldown",
+				"photoCredit": "Hanny Naibaho",
+				"price": 5,
+				"muscleGroups": ["B","A"],
+                "imageURL":"https://upload.wikimedia.org/wikipedia/commons/7/79/Wide-grip-lat-pull-down-2.gif",
+				 "steps": [
+                     "Sit at a cable pull down machine fitted with a wide bar.",
+                     "Grasp the bar with a wide overhand grip (palms facing forward) .",
+                     "With your abs drawn in and back straight pull the bar down to your upper chest.",
+                     "Pause for a moment and then return the bar to the starting position.",
+                     "Repeat."
+                   ]
+
+			},
+			{
+                "id": "8903A204-F5C1-4D5C-A0A1-5C0ECD27FDD7",
+				"name": "Barbell Row",
+				"photoCredit": "Kavita Joshi Rai",
+				"price": 3,
+				"muscleGroups": ["B","A","C"],
+                "imageURL":"https://upload.wikimedia.org/wikipedia/commons/e/e6/Reverse-grip-bent-over-rows-2.png",
+                "steps": [
+                     "Bend over a barbell at slight angle with your knees bent and your back straight.",
+                     "Grasp the bar with a reverse grip (palms facing up) and slowly pull the barbell to your abs, keeping your elbows close to your sides.",
+                     "Pause for a moment at the top.",
+                     "Return the barbell to the starting position.",
+                     "Repeat."
+                   ]
+			},
+			{
+                "id": "82B28AFF-BB29-4186-AA07-04959180D81A",
+				"name": "Dumbbell Bench Press",
+				"photoCredit": "Melissa Walker Horn",
+				"price": 12,
+				"muscleGroups": ["P","A","S"],
+                "imageURL":"https://upload.wikimedia.org/wikipedia/commons/2/2e/Dumbbell-bench-press-1.png",
+				   "steps": [
+                   "This is an exercise for chest, triceps and shoulder strengthening.",
+                   "Grasp the dumbbells in each hand and lie on a flat bench with your feet firmly on the ground.",
+                   "Extend your arms up over your chest with your palms facing forwards.",
+                   "Press the dumbbells up over your chest till your arm are fully extended this is your starting position.",
+                   "Bend your elbows to a 90 degree angle so your upper arms are parallel with the floor.",
+                   "Slowly lower the dumbbells as low as comfortable along your chest.",
+                   "With a controlled motion return back to your starting position.",
+                   "Repeat."
+                 ]
+			},
+            {
+                        "id": "2bdaaf2f-561a-499e-9f54-4493fca19b35",
+                        "name": "Close Grip Barbell Bench Press",
+                        "photoCredit": "Asnim Asnim",
+                        "price": 7,
+                        "muscleGroups": ["P","A", "S"],
+                         "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Lunges-2-2.png",
+                      "steps": [
+                          "Lie on a flat bench with your feet flat on the floor, keep your back flat on the bench.",
+                          "Grasp the bar a close grip (approximately 14” apart).",
+                          "Raise the barbell above your body and move it over the middle of your chest, this is your starting position.",
+                          "Lower the bar down so it just touches your chest.",
+                          "Raise the bar till your arms are fully extended and your elbows are locked.",
+                          "Return to starting position."
+                        ]
+                    },
+			{
+                "id": "190E1A9D-20A4-4F98-AA54-B192E1C4D7B9",
+				"name": "Incline Barbell Bench Press",
+				"photoCredit": "Monika Grabkowska",
+				"price": 4,
+				"muscleGroups": ["P","A","S"],
+                "imageURL":"https://upload.wikimedia.org/wikipedia/commons/1/14/Incline-bench-press-1.png",
+                "steps": [
+                  "Lie flat on an incline bench set at a 45 degree angle, with your feet shoulder width apart.",
+                  "Grasp the bar a little wider than shoulder width apart.",
+                  "Raise the barbell above your body and move it over the middle of your chest, this is your starting position.",
+                  "Lower the bar down so it just touches your chest.",
+                  "Raise the bar straight up till your arms are fully extended and your elbows are locked.",
+                  "Return to starting position."
+                ]
+			},
+            {
+                                              "id": "2bb75c3e-f3a7-4422-95a9-dcd9a379200c",
+                                                "name": "Decline Barbell Bench Press",
+                                                "photoCredit": "Thomas Tucker",
+                                                "price": 14,
+                                                "muscleGroups": ["P","S","A"],
+                                                "imageURL":"https://upload.wikimedia.org/wikipedia/commons/6/67/Barbell_shrugs_2.svg",
+                                                "steps": [
+                                                  "Lie on a decline bench with your head lower than your feet.",
+                                                  "Place your hands wider than shoulder width apart on the bar and lift it off the rack.",
+                                                  "Bring the bar over your chest and lower it till it is just above the lower portion of your chest, this is starting position.",
+                                                  "Extend your arms upward and raise the bar straight up.",
+                                                  "Pause for a moment and then lower the bar to starting position.",
+                                                  "Repeat."
+                                                ]
+                                            },
+            {
+                        "id": "02b700ec-295e-4b35-9e86-1aa934849b5c",
+                        "name": "Dumbbell Shoulder Press",
+                        "photoCredit": "Joseph Gonzalez",
+                        "price": 8,
+                        "muscleGroups": ["S","A"],
+                        "imageURL": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Seated-military-shoulder-press-2.png",
+                           "steps": [
+                          "Sitting on a bench, with your abs drawn in grasp a dumbbell in each hand, with your palms facing forward.",
+                          "Begin with your arms at the height of your shoulders.",
+                          "Extend your arms and raise the dumbbells up above your head.",
+                          "At the top of the movement, bring your arms closer together.",
+                          "Pause for a moment and then in a controlled movement lower the dumbbells to the starting position.",
+                          "Repeat"
+                        ]
+                    },
+            {
+                        "id": "4b95d958-1b56-4023-8656-46a06138a5c5",
+                          "name": "Arnold Press",
+                          "photoCredit": "Thomas Tucker",
+                          "price": 14,
+                          "muscleGroups": ["S", "A"],
+                          "imageURL":"https://upload.wikimedia.org/wikipedia/commons/6/67/Barbell_shrugs_2.svg",
+                          "steps": [
+                              "Sit on a flat bench, feet point forward with your abs drawn in.",
+                              "Grasp a dumbbell in each hand with your palm facing towards your body",
+                              "Bend your elbows to 90 degrees and raise both your arms to the starting point in line with your shoulders.",
+                              "With a steady controlled motion raise your arms up while straightening your elbows while rotating your forearms so that your palms now face away from your body.",
+                              "Bring the dumbbells closer together but do not fully extend your elbows.",
+                              "With a controlled motion lower the dumbbells to the starting position at your shoulders."
+                            ]
+                      },
+            {
+                                   "id": "92f3f30f-e71d-43a3-8619-63c3f94d0678",
+                                     "name": "Incline Dumbbell Press",
+                                     "photoCredit": "Thomas Tucker",
+                                     "price": 14,
+                                     "muscleGroups": ["P","S","A"],
+                                     "imageURL":"https://upload.wikimedia.org/wikipedia/commons/6/67/Barbell_shrugs_2.svg",
+                                    "steps": [
+                                       "Set and incline bench at a 45 degree angle.",
+                                       "Start with the dumbbells at shoulder height, your arms wide and elbows pointing down to the floor.",
+                                       "Raise your arms up over your chest bringing the dumbbells closer together as they meet over your chest.",
+                                       "Slowly return the dumbbells to starting position.",
+                                       "Repeat."
+                                     ]
+                                 },
+            {
+                "id": "FD3BACF7-01AE-449D-8929-26C6F8EC90D5",
+                "name": "Barbell Shrug",
+                "photoCredit": "Thomas Tucker",
+                "price": 14,
+                "muscleGroups": ["B"],
+                "imageURL":"https://upload.wikimedia.org/wikipedia/commons/6/67/Barbell_shrugs_2.svg",
+               "steps": [
+                  "Stand on the floor with your abs drawn in and your back straight.",
+                  "Grasp a barbell with a grip a little wider than shoulder width at arms length.",
+                  "Drop your shoulders as much as possible to start.",
+                  "Raise your shoulder as high as possible.",
+                  "Pause for a moment at the top and then return to starting position in a controlled motion.",
+                  "Repeat."
+                ]
+            },
+            
+            
+            
+            {
+                "id": "F5BCE219-391D-4AAF-8DA7-D25096776D46",
+                "name": "Barbell Upright Row",
+                "photoCredit": "Cel Lisboa",
+                "price": 12,
+                "muscleGroups": ["S"],
+                "imageURL":"https://upload.wikimedia.org/wikipedia/commons/b/bf/Barbell-upright-rows-1.png",
+                  "steps": [
+                    "Stand with your feet shoulder width apart, your abs drawn in and back straight.",
+                    "Place the bar on rack in the position where your arms are fully extended in front of you with your elbows slightly bent.",
+                    "Place your hands shoulder width apart and raise the bar up towards your chin with a controlled motion.",
+                    "Pause at the top for a moment and rotate your shoulder blades together.",
+                    "Lower the bar to the starting position.",
+                    "Repeat"
+                  ]
+            }
+		]
+	},
+	{
+		"name": "Lower Body",
+        "id": "3D97FAB4-50AC-40FC-9BF0-3F46BB6A92F5",
+		"items": [
+			{
+                "id": "D44AAEBC-BF4F-42CD-8C37-0FEF772A5B69",
+				"name": "Barbell Back Squat",
+				"photoCredit": "Brooke Lark",
+				"price": 15,
+				"muscleGroups": ["Q","G"],
+                "imageURL":"https://upload.wikimedia.org/wikipedia/commons/6/6f/Squats-2.png",
+                "steps": [
+                     "This is an exercise for leg strengthening, mainly the quadriceps.",
+                     "Lifting a barbell off of a weight rack, position it on your shoulders.",
+                     "Place your feet slightly wider than shoulder width apart with your knees and toes pointed slightly outward.",
+                     "Drawing your abs in descend slowly by bending at the knees and hips as if you are sitting down (squatting).",
+                     "Lower yourself as far as you can control without letting your body shift towards your toes (this will cause you to loose balance).",
+                     "Pause in the downward position and slowly return upright to the starting position."
+                   ]
+			},
+			{
+                "id": "2BAD20C5-D007-4BBE-B074-8CF0F256A42F",
+				"name": "Barbell Deadlift",
+				"photoCredit": "Eaters Collective",
+				"price": 12,
+				"muscleGroups": ["H","G","B"],
+                  "imageURL":"https://upload.wikimedia.org/wikipedia/commons/e/e8/Romanian-deadlift-1.png",
+			   "steps": [
+                   "Stand with your feet shoulder width apart so that your feet are under the bar.",
+                   "Keeping your back straight bend at the waist, allow some bend in your knees.",
+                   "Grasp the par with an overhand grip approximately 16 inches apart.",
+                   "Straighten your back as you hold the bar at arm’s length.",
+                   "Bend over again lowering the bar to just above the floor."
+                 ]
+			},
+			{
+                "id": "759527CB-1064-4082-A527-F04698F9D18F",
+				"name": "Barbell Romanian Deadlift",
+				"photoCredit": "Edward Guk",
+				"price": 12,
+				"muscleGroups": ["H","G","B"],
+                "imageURL":"https://upload.wikimedia.org/wikipedia/commons/e/e8/Romanian-deadlift-1.png",
+                "steps": [
+                     "Place a barbell in front of your feet on the ground.",
+                     "Grasp the barbell with a grip a bit wider than shoulder width apart.",
+                     "Bend your knees slightly, keeping your hips and back straight.",
+                     "Lift the bar straight up concentrating on using your hips as you stand.",
+                     "Stand with the bar resting against your thighs.",
+                     "Lower the bar to the floor with a slight bend in your knees flexing your hips back for stability."
+                   ]
+			},
+			{
+                "id": "AD419CE6-50CC-4132-BE8E-B92B9DFE4D02",
+				"name": "Dumbbell Romanian Deadlift",
+				"photoCredit": "Elli O.",
+				"price": 12,
+				"muscleGroups": ["H","G","B"],
+                "imageURL":"https://upload.wikimedia.org/wikipedia/commons/a/a9/Dead-lifts-2-1.png",
+			 "steps": [
+                     "Place a pair of Dumbbells in front of your feet on the ground.",
+                     "Grasp the Dumbbells with a grip a bit wider than shoulder width apart.",
+                     "Bend your knees slightly, keeping your hips and back straight.",
+                     "Lift the Dumbbells straight up concentrating on using your hips as you stand.",
+                     "Stand with the Dumbbells resting against your thighs.",
+                     "Lower the Dumbbells to the floor with a slight bend in your knees flexing your hips back for stability."
+                   ]
+			},
+			{
+                "id": "944AB773-16CA-48F9-BB64-BB0E482FE102",
+				"name": "Dumbbell Step Ups",
+				"photoCredit": "Cel Lisboa ",
+				"price": 14,
+				"muscleGroups": ["Q","G"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Step_up_single_leg_balance_with_bicep_curl_using_dumbbells_3.svg/2000px-Step_up_single_leg_balance_with_bicep_curl_using_dumbbells_3.svg.png",
+				"steps": [
+                  "Place a bench, box or step in front of you.",
+                  "Grasp a dumbbell in each hand.",
+                  "With your left leg, step up on the bench, and follow by stepping up with your right leg.",
+                  "Step down with your left leg and then your right leg.",
+                  "Repeat starting with your right leg.",
+                  "Note: Use a lighter weight until you are used to the motion of this exercise."
+                ]
+			},
+			{
+                "id": "024763B6-2577-4D04-9A4F-321F3EB19EA6",
+				"name": "Barbell Front Squat",
+				"photoCredit": "Mgg Vitchakorn",
+				"price": 9,
+				"muscleGroups": ["Q","G"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/02/Front-squat-2-857x1024.png",
+                  "steps": [
+                    "The Front Squat works the same muscles as the rear squat without placing the weight of the bar on your shoulders. This exercise can be a good substitute for people with back and neck injuries.",
+                    "Place the barbell on your upper chest, resting it across your front deltoids and holding it with your arms crossed securely.",
+                    "Keep your head and back straight, abs drawn in and toes pointing slightly outward.",
+                    "Slowly “squat” down so your upper thighs are parallel to the floor.",
+                    "Slowly return to the starting position.",
+                    "Note: Practice the squat without any weight to allow yourself to become comfortable with the movements."
+                  ]
+			},
+            {
+                    "id": "aebb121a-e484-4937-b83a-7d24ef19b94c",
+                    "name": "Hyperextensions",
+                    "photoCredit": "Eaters Collective",
+                    "price": 10,
+                    "muscleGroups": ["G","H"],
+                    "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Leg-extensions-1-672x1024.png",
+                    "steps": [
+                       "Adjust the hyperextension bench so that your ankles are tucked under the footpads and your thighs are flat across the top pad.",
+                       "With your arms folded across your chest and your back straight, slowly bend at the waist towards the floor, keeping your back flat.",
+                       "Slowly return to the starting position.",
+                       "Repeat."
+                     ]
+                },
+			{
+                "id": "44FBAFC0-BEE0-4A02-9C57-B8ECDC1CE5E1",
+				"name": "Hack Squat",
+				"photoCredit": "Alex Munsell",
+				"price": 20,
+				"muscleGroups": ["Q","G"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/0/04/Leg-press-2-1024x670.png",
+                "steps": [
+                     "This exercise is a variation of the Squat which uses a machine.  This exercise may be preferred by beginners.",
+                     "Lie face up on a Hack Squat machine with your shoulders against the pad.",
+                     "Place your feet facing forward at slightly less than shoulder width apart with your toes point slightly outward.",
+                     "Release the dock levers and place your hands on the hand grips.",
+                     "Drawing your abs in, extend your body standing upright.",
+                     "Lower your body to a squatting position so you knees are bent as if you were sitting down.",
+                     "Return to the starting position."
+                   ]
+			},
+			{
+                "id": "F0B4DF27-B293-4151-8480-FA46DFCA5BBB",
+				"name": "Dumbbell Lunge",
+				"photoCredit": "Asnim Asnim",
+				"price": 7,
+				"muscleGroups": ["Q","G"],
+                 "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Lunges-2-2.png",
+                "steps": [
+                     "Grasp a dumbbell in each hand.",
+                     "Stand with your feet about 8 inches apart, toes facing forward.",
+                     "Take a step forward (2-3 feet) keeping your abs drawn in and your upper body straight.",
+                     "Slowly lower one knee down as if kneeling while keeping your other knee bent at a 90 degree angle, do not let your knee touch the ground.",
+                     "Lower your body so that the rear knee is just above the floor and hold for a moment before returning to the starting position.",
+                     "Repeat on opposite side."
+                   ]
+			},
+            {
+                "id": "f983d6aa-529a-4614-8330-ecb12ac33d50",
+                "name": "Leg Press",
+                "photoCredit": "Asnim Asnim",
+                "price": 7,
+                "muscleGroups": ["Q","G","H"],
+                 "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Lunges-2-2.png",
+                 "steps": [
+                   "This is a variation of the leg press which targets more of the external muscles of the legs by moving your feet closer together.",
+                   "Sit on a leg press machine with your feet on the crosspiece 6 inches apart, with your toes pointed slightly outward.",
+                   "Grasp the handles on the side of the machine and release the locks.",
+                   "Keeping your abs drawn in, bend your knees and bring the weight as far as possible towards your chest.",
+                   "Hold this position for a moment and then slowly return the weight to starting position.",
+                   "Note: Do not lock your knees at the top."
+                 ]
+            }
+
+		]
+	},
+	{
+		"name": "Accessories",
+        "id": "1C89DAFD-7653-4EF2-BF20-C51A159BAC43",
+		"items": [
+			{
+                "id": "AB7E38EA-05A7-426A-AFF3-B3A32B3E86BF",
+				"name": "Dumbbell Bicep Curl",
+				"photoCredit": "Karly Gomez",
+				"price": 6,
+				"muscleGroups": ["A"],
+                "imageURL":"https://upload.wikimedia.org/wikipedia/commons/e/ea/Alternating_bicep_curl_with_dumbbell_2.svg",
+                    "steps": [
+                  "Stand with your feet shoulder width apart, your knees slightly bent and your abs drawn in.",
+                  "Grasp a dumbbell in each hand so your palms are facing up.",
+                  "Extend your arms so they are at the sides of your body.",
+                  "Keeping your elbows locked lift your left arm to your chest so that your forearm touches your bicep.",
+                  "Lower your arm and repeat with your right arm.",
+                  "Note: Do not swing your body as you perform this exercise."
+                ]
+			},
+			{
+                "id": "758ABBE3-F338-4F7C-BAC7-8D61BC1FB329",
+				"name": "Chest Fly",
+				"photoCredit": "Mana",
+				"price": 8,
+				"muscleGroups": ["P"],
+                 "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/87/Butterfly-machine-2.png",
+				 "steps": [
+                     "Adjust the machine so you are sitting at chest heights with the pads.",
+                     "Sit on the machine with your back flat.",
+                     "Place your forearms on the pads, parallel to the floor, this is starting position.",
+                     "Using your forearms, push the pads together slowly as you squeeze your chest.",
+                     "Return your arms to the stretched out starting position in a controlled motion.",
+                     "Repeat."
+                   ]
+			},
+            {
+                "id": "22E8B9F0-94C1-43EC-9B19-34F22CA17B6B",
+                "name": "Leg Extensions",
+                "photoCredit": "Eaters Collective",
+                "price": 10,
+                "muscleGroups": ["Q"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Leg-extensions-1-672x1024.png",
+                 "steps": [
+                     "Adjust the seat so that your knees have full range of motion and that the footpad fits over your legs, just above your ankles.",
+                     "Grasp the handles with your hands for support, keeping your hip and back against the bench.",
+                     "Slowly extend your legs until your knees are straight, but do not lock your knees.",
+                     "Hold for a moment and then with controlled movements return to the starting position.",
+                     "Note: Use controlled movements for this exercise, do not swing the weight up."
+                   ]
+            },
+            {
+                "id": "DD20B3C1-438A-4657-BCFA-A0C6DA1AE7EE",
+                "name": "Seated Hamstring Curl",
+                "photoCredit": "Dragne Marius",
+                "price": 6,
+                "muscleGroups": ["H"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Seated-leg-curl-2.png",
+               "steps": [
+                     "Adjust the machine so that the footpad is just above your heels.",
+                     "Sit upright with your abs drawn in and your legs in front of you.",
+                     "Slowly curl your legs back towards you and hold for a moment.",
+                     "With controlled movement return to the starting position."
+                   ]
+            },
+			{
+                "id": "A73E2D2D-D53A-46D4-8829-62011EEF7DA4",
+				"name": "Skull Crushers",
+				"photoCredit": "Kobby Mendez",
+				"price": 5,
+				"muscleGroups": ["A"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/1/18/Triceps_pushdown_with_v_bar_and_cable_1.svg",
+			  "steps": [
+                                 "Lay face up on a decline bench and grasp an EZ Bar (Curved Barbell).",
+                                 "Extend your arms so they are perpendicular to your chest, and keeping your elbows in one place, lower the bar toward your head.",
+                                 "Slowly return to the starting position."
+                               ]
+			},
+			{
+                "id": "971CFDDD-2AFA-418F-909F-D459CC6827CF",
+				"name": "Hammer Curl",
+				"photoCredit": "Camila Melim",
+				"price": 7,
+				"muscleGroups": ["A"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bicep-hammer-curl-2.png",
+             "steps": [
+               "This exercise uses a hammering (up and down) motion to isolate the biceps.",
+               "Stand with our feet shoulder width apart, your knees slightly bent and your abs drawn in.",
+               "Grasp a dumbbell in each hand so your palms are facing each other.",
+               "Extend your arms so they are at the sides of your body.",
+               "Keeping your elbows locked lift your left arm in an arc towards your left shoulder.",
+               "Lower your arm and repeat with your right arm.",
+               "Note: Do not turn your wrists during this exercise."
+             ]
+			}
+		]
+	},
+	{
+		"name": "Abdominals",
+        "id": "CE3C67F9-79E3-46E3-B134-362A52ABFE3C",
+		"items": [
+			{
+                "id": "A4D89AF9-190E-4409-B924-AABD13DBB6A4",
+				"name": "Crunch",
+				"photoCredit": "Melissa Walker Horn",
+				"price": 5,
+				"muscleGroups": ["C"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bicep-hammer-curl-2.png",
+
+				  "steps": [
+                    "This is the most common abdominal exercise and possibly the most often improperly performed. Here is how to perform it correctly.",
+                    "Lie on your back with your feet up on a bench and your knees bent at a 90 degree angle.",
+                    "Place your hands across your chest or on either side of your head (over your ears).",
+                    "Raise your head, shoulders and chest off the floor and towards your knees, crunching your abs.",
+                    "Hold the position for a moment and then lower to the starting position.",
+                    "Note: Keep your hips straight and your lower back against the floor during this exercise."
+                  ]
+			},
+			{
+                "id": "FC201614-1418-4152-9469-087B27485D13",
+				"name": "Leg Raises",
+				"photoCredit": "Alex Loup",
+				"price": 6,
+				"muscleGroups": ["C"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bicep-hammer-curl-2.png",
+               "steps": [
+                     "Lie on a flat bench with your hands under your hips supporting your back.",
+                     "Your legs should be unsupported by the bench from below your knees.",
+                     "With your feet together and your toes flexed upwards, raise your straight legs up a few cm off the bench; both of your legs should have no contact with the bench. This is your starting position.",
+                     "Keep your legs straight with a slight bend in the knees and raise your legs to just before 90 degrees with your hips.",
+                     "Pause at the top and lower your legs in slow controlled manner back to the starting position.",
+                     "Repeat."
+                   ]
+			},
+			{
+                "id": "58CE3F3E-74E1-4C5F-A630-986B187788B5",
+				"name": "Air Bike",
+				"photoCredit": "Nathan Dumlao",
+				"price": 3,
+				"muscleGroups": ["C"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bicep-hammer-curl-2.png",
+				 "steps": [
+                     "This exercise works your abs by raising your arms to meet your legs. The movements are similar to riding a bike.",
+                     "Lie on your back on a mat.",
+                     "Place your hands on either side of your head (over your ears).",
+                     "Raise your legs up, bending your knees and keeping your calves parallel to the floor.",
+                     "Bring your left arm elbow up to meet your right knee, as if riding a bike.",
+                     "Repeat with your right elbow and left knee.",
+                     "Continue alternating sides.",
+                     "Note: Move your arms across your chest, squeezing your abs as you move."
+                   ]
+			},
+			{
+                "id": "71B872F2-3B5D-46D0-9D98-E696B4AE30E4",
+				"name": "Side Plank",
+				"photoCredit": "Nathan Dumlao",
+				"price": 7,
+				"muscleGroups": ["C"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bicep-hammer-curl-2.png",
+                "steps": [
+                  "Lay on one side of your body with your legs straight and your forearm perpendicular to your body in front of you.",
+                  "Drawing your abs in, slowly raise yourself up so you are balanced on your feet and your forearm.",
+                  "Hold this position and slowly return back to the starting position.",
+                  "Repeat on other side."
+                ]
+			},
+			{
+                "id": "DE58CEFF-7023-4B60-88CC-80C5B7BFB6EC",
+				"name": "Ab-Rollouts",
+				"photoCredit": "Loverna Journey",
+				"price": 4,
+				"muscleGroups": ["C"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bicep-hammer-curl-2.png",
+                "steps": [
+                  "Place a barbell on the floor at your feet.",
+                  "Bending at the waist, grip the barbell with a shoulder with overhand grip.",
+                  "With a slow controlled motion, roll the bar out so that your back is straight.",
+                  "Keep your arms straight throughout the exercise.",
+                  "Roll back up raising your hips and butt as you return to the starting position.",
+                  "Note: Practice raising your hips and butt as high as you can with this exercise."
+                ]
+			},
+			{
+                "id": "E7584DB6-2EAE-4178-ADB2-9E5DBD5215EA",
+				"name": "Cross Body Crunch",
+				"photoCredit": "Alexander Mils",
+				"price": 3,
+				"muscleGroups": ["C"],
+                "imageURL": "https://upload.wikimedia.org/wikipedia/commons/8/86/Bicep-hammer-curl-2.png",
+                 "steps": [
+                     "Lie on your back and bring your knees up to a 60 degree angle, keep your feet flat on the floor.",
+                     "Place your hands on either side of your head (over your ears).",
+                     "Curl up raising your right elbow and your left knee so that they touch over your chest.",
+                     "Return to the starting position and repeat with alternate arms and legs.",
+                     "Note: Contract your abs as you twist during this exercise."
+                   ]
+			}
+		]
+	}
+]
