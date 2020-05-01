@@ -8,8 +8,8 @@ Written in Swift and using Apple's new framework SwiftUI, IronTrack is a free to
 - Please leave any reviews, ratings or thoughts on the App Store or email any suggestions at: irontrack.service@gmail.com
 
 ### TO DO:
-- One to many relationship between workout and exercise
-- Parent child relationship with sets/reps and workout
-- Increase workout library
+- [ ] One to many relationship between workout and exercise
+- [ ]  Parent child relationship with sets/reps and workout
+- [ ] Increase workout library
 
 All images are from Everkinetic (license: https://creativecommons.org/licenses/by-sa/3.0/deed.en)
